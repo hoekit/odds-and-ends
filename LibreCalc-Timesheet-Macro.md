@@ -1,7 +1,7 @@
 # LibreCalc Timesheet Macro
 *<small>Fri, 07 Jan 2022 / [Home](README.md)</small>*
 
-To track effort spent on work, both paid and unpaidd, I've been keeping
+To track effort spent on work, both paid and unpaid, I've been keeping
 a simple timesheet.
 
 <img src="img/01-timelog-example.png" alt="01-timelog-example" width="100%"/>
@@ -16,11 +16,14 @@ With a macro, it's now literally just a press of the button.
 
 <img src="img/02-timelog-macro.gif" alt="02-timelog-macro" width="100%"/>
 
-Below is the macro used, scraped together from bits of code from various
-corners of the internet.
+_<small>*Video created using vokoscreen, converted to gif via [ezgif.com](https://ezgif.com/video-to-gif).</small>_
 
 ----
 ### The UpdDttm Macro
+
+Below is the macro used, scraped together from bits of code from various
+corners of the internet.
+
 ```
 REM  *****  BASIC  *****
 
@@ -76,7 +79,9 @@ end sub
 
 As it turns out, with LibreOffice 7.x (or maybe even earlier), you can
 enter the current date and time simply by pressing `Ctrl-Shift-;`. That
-is certainly useful but I needed the values to be formatted as text with
-just `YYYY-MM-DD hh:mm` as other formulas in the worksheet relies on
-that format. So, macro is still useful.
+is certainly useful but I needed the values to be text with the exact
+format of `YYYY-MM-DD hh:mm` as other formulas in the worksheet relies
+on that format. So, the macro is still useful.
+
+Perhaps the next step is to map a keyboard shortcut to call the macro 🤔🙂.
 
