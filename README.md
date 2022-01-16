@@ -14,3 +14,5 @@ A hodge-podge of unrelated stuff:
 - `Ricoh-SP229Nw`
     - Contains a hard-to-find .deb driver for the Ricoh SP220Nw printer
 
+- [`Pieter Hintjens Books`](Pieter-Hintjens-Books)
+    - Working links to Pieter Hintjens books online
