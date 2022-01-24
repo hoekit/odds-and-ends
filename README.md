@@ -16,3 +16,8 @@ A hodge-podge of unrelated stuff:
 
 - [`Pieter Hintjens Books`](Pieter-Hintjens-Books)
     - Working links to Pieter Hintjens books online
+
+- [`LINE and cvlc tips`]
+    - Running LINE on Linux
+    - Using cvlc for audio/video bookmarking
+
