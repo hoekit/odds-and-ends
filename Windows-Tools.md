@@ -35,3 +35,7 @@ A collection of tools for Windows.
 - Sysinternals - Junction
     - https://docs.microsoft.com/en-us/sysinternals/downloads/junction
     - https://download.sysinternals.com/files/Junction.zip
+
+- Bonobo Git Server
+    - https://bonobogitserver.com/resources/releases/6_5_0.zip
+    - md5sum: 3b5f402a554fe9a12b962b43971e7c51
