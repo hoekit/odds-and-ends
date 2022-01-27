@@ -39,3 +39,8 @@ A collection of tools for Windows.
 - Bonobo Git Server
     - https://bonobogitserver.com/resources/releases/6_5_0.zip
     - md5sum: 3b5f402a554fe9a12b962b43971e7c51
+
+- Win-ACME
+    - https://github.com/PKISharp/win-acme
+    - https://github.com/win-acme/win-acme/releases/download/v2.1.18/win-acme.v2.1.18.1119.x64.trimmed.zip
+
