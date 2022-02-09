@@ -28,6 +28,9 @@ A hodge-podge of unrelated stuff:
 - [`Dhamma`](Dhamma.md)
     - A collection of quotes, articles, videos and information related to Dhamma.
 
+- [`Maths Concepts`](Maths-Concepts.md)
+    - Explanations of maths concepts in a way that's relatively easy to understand.
+
 
 ----
 ### Loose Ends
