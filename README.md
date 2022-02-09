@@ -57,6 +57,13 @@ A hodge-podge of unrelated stuff:
         - Reader for CS106B course
     - Programming abstractions in C (1997)
         - https://archive.org/details/programmingabstr00robe/mode/2up
+    - Lambda Calculus
+        - David Beazley: Lambda Calculus from the Ground Up - PyCon 2019
+            - https://www.youtube.com/watch?v=pkCLMl0e_0k
+        - David Beazley: Lambda Calculus: PyCon 2019 Tutorial (Screencast)
+            - https://www.youtube.com/watch?v=5C6sv7-eTKg
+        - A Tutorial Introduction to the Lmabda Calculus - Raul Rojas
+            - https://www.cs.tufts.edu/comp/105-2020f/readings/rojas.pdf
 - Other Stuff
     - Feynman Lectures on Physics
         - https://www.feynmanlectures.caltech.edu/
@@ -72,4 +79,25 @@ A hodge-podge of unrelated stuff:
     - If Toyota applied precision engineering to create a robust,
       reliable car, what is the analagous, i.e precision programmang to
       create robust, reliable programs
+
+- COVID-19
+    - SARS-CoV-2 in water and wasteware: A critical review (Feb 2021)
+        - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7528884/
+
+- Design Notes
+    - SAS session runtime configuration
+        - SAS session runtime configuration is divided into `options` and `procs`. Options are like runtime options, while `procs` are procedures. This combination makes it easy to setup default options and also load standard libraries but at the cost of some complexity.
+        - The configuration of a SAS session runtime can be modified at
+          various places.
+            - In sasv9.cfg files
+            - In sasv9_usermods.cfg files
+            - At the AppServer level or
+            - At the Workspace Server level
+        - On top of that, there is an autoexec-like file that can be run
+            - At the AppServer level or
+            - At the Workspace Server level
+
+    - This has some similarity to Ansible/Puppet/Azure DevOps
+        - The notion of configuration as code
+        - Also known as GitOps
 
