@@ -31,6 +31,9 @@ A hodge-podge of unrelated stuff:
 - [`Maths Concepts`](Maths-Concepts.md)
     - Explanations of maths concepts in a way that's relatively easy to understand.
 
+- [`Wordle Program`](Wordle-Program.md)
+    - A quick program to solve [Wordle](https://www.nytimes.com/games/wordle/index.html).
+
 
 ----
 ### Loose Ends
@@ -48,12 +51,6 @@ A hodge-podge of unrelated stuff:
 - Computer Sciency stuff
     - Foundations of Computer Science - C Edition by Aho & Ullman
         - http://infolab.stanford.edu/~ullman/focs.html
-    - Stanford CS106B Programming Abstractions Course by Julie Zelenski (2008)
-        - https://www.youtube.com/watch?v=kMzH3tfP6f8
-        - https://archive.org/details/podcast_programming-abstractions_384232917
-        - Very, very good lectures
-        - Current Assignments (2022)
-            - https://web.stanford.edu/class/cs106b/about_assignments
     - Programming Abstractions in C++ (2012)
         - https://archive.org/details/pdfy-wOLAM2q0x2jLTG2I/mode/2up
         - Downloadable PDF
@@ -84,11 +81,13 @@ A hodge-podge of unrelated stuff:
       create robust, reliable programs
 
 - COVID-19
-    - SARS-CoV-2 in water and wasteware: A critical review (Feb 2021)
+    - SARS-CoV-2 in water and wastewater: A critical review (Feb 2021)
         - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7528884/
 
 - Design Notes
+
     - SAS session runtime configuration
+
         - SAS session runtime configuration is divided into `options` and `procs`. Options are like runtime options, while `procs` are procedures. This combination makes it easy to setup default options and also load standard libraries but at the cost of some complexity.
         - The configuration of a SAS session runtime can be modified at
           various places.
@@ -103,4 +102,21 @@ A hodge-podge of unrelated stuff:
     - This has some similarity to Ansible/Puppet/Azure DevOps
         - The notion of configuration as code
         - Also known as GitOps
+
+    - Cache SQLite tables in memory for performance
+        - Only a single process has read/write access to the table
+        - Each sqlite db file contains only one table
+        - On update, update the table, then update the cache
+
+    - Error Handling
+        - Principle #1: All system exceptions should be captured and reported
+            - Create just one Exception Log File for the entire system
+            - All exceptions in all services go into a the same exception log file
+            - Send exceptions to sysadmin nightly
+        - Principle #2: Capture enough context to replicate the problem
+
+    - Protobuf for serialization
+        - Schema to enforce types and validation
+            - https://codeclimate.com/blog/choose-protocol-buffers/
+        - Backward compatibility
 
