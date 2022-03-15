@@ -31,3 +31,10 @@ Below is the mental picture:
     coin      -->  vending machine    -->  choco-bar
     choco-bar -->  unvending machine  -->  coin
 
+
+----
+#### Conic Sections
+
+The following is a good page on conic sections:
+- https://www.anirdesh.com/math/algebra/conic-sections.php
+

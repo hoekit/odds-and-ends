@@ -12,10 +12,10 @@ A hodge-podge of unrelated stuff:
     - Interesting online reading materials for the young (and
       young-at-heart :) )
 
-- `Ricoh-SP229Nw`
+- [`Ricoh-SP229Nw`](Ricoh-SP220Nw/README.md)
     - Contains a hard-to-find .deb driver for the Ricoh SP220Nw printer
 
-- [`Pieter Hintjens Books`](Pieter-Hintjens-Books)
+- [`Pieter Hintjens Books`](Pieter-Hintjens-Books.md)
     - Working links to Pieter Hintjens books online
 
 - [`LINE and cvlc tips`](LINE-and-cvlc-tips.md)
@@ -34,6 +34,9 @@ A hodge-podge of unrelated stuff:
 - [`Wordle Program`](Wordle-Program.md)
     - A quick program to solve [Wordle](https://www.nytimes.com/games/wordle/index.html).
 
+- [`Design Notes`](Design-Notes.md)
+    - A collection of notes on application design and implementation.
+
 
 ----
 ### Loose Ends
@@ -47,7 +50,10 @@ A hodge-podge of unrelated stuff:
       returns 0  if all pixels in the region is white
 - Profession
     - Teach
+    - Data Engineer/Professional
+
 - Write up on auth vs unauth requests. user-auth vs shared-key-auth.
+
 - Computer Sciency stuff
     - Foundations of Computer Science - C Edition by Aho & Ullman
         - http://infolab.stanford.edu/~ullman/focs.html
@@ -84,39 +90,10 @@ A hodge-podge of unrelated stuff:
     - SARS-CoV-2 in water and wastewater: A critical review (Feb 2021)
         - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7528884/
 
-- Design Notes
+- Booklist
+    - Energy and Civilization by Vaclav Smil
 
-    - SAS session runtime configuration
-
-        - SAS session runtime configuration is divided into `options` and `procs`. Options are like runtime options, while `procs` are procedures. This combination makes it easy to setup default options and also load standard libraries but at the cost of some complexity.
-        - The configuration of a SAS session runtime can be modified at
-          various places.
-            - In sasv9.cfg files
-            - In sasv9_usermods.cfg files
-            - At the AppServer level or
-            - At the Workspace Server level
-        - On top of that, there is an autoexec-like file that can be run
-            - At the AppServer level or
-            - At the Workspace Server level
-
-    - This has some similarity to Ansible/Puppet/Azure DevOps
-        - The notion of configuration as code
-        - Also known as GitOps
-
-    - Cache SQLite tables in memory for performance
-        - Only a single process has read/write access to the table
-        - Each sqlite db file contains only one table
-        - On update, update the table, then update the cache
-
-    - Error Handling
-        - Principle #1: All system exceptions should be captured and reported
-            - Create just one Exception Log File for the entire system
-            - All exceptions in all services go into a the same exception log file
-            - Send exceptions to sysadmin nightly
-        - Principle #2: Capture enough context to replicate the problem
-
-    - Protobuf for serialization
-        - Schema to enforce types and validation
-            - https://codeclimate.com/blog/choose-protocol-buffers/
-        - Backward compatibility
+- Reminiscing:
+    - Creating a file on DOS with `copy con file.txt`
+    - To end, press `Ctrl+Z`
 
