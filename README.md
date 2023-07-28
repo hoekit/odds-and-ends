@@ -22,6 +22,9 @@ A hodge-podge of unrelated stuff:
     - Running LINE on Linux
     - Using cvlc for audio/video bookmarking
 
+- [`Mozilla Public License 2.0`](Mozilla_MPL2.0.txt)
+    - Text version of the Mozilla Public License
+ 
 - [`Assembly Code`](Assembly-Code.md)
     - A collection of articles, videos and information related to coding in assembly.
 
